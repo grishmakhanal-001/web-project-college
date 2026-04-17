@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+body
+{
+font-family: 'Kenia', sans-serif;
+background-color: #0f172a;
+color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.heading1
+{
+color: red;
+text-align: center;
+font-size: 40px;
+background-color: #0b1220;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sekuya&display=swap');
+body
+{
+font-family: 'Kenia', sans-serif;
+background-color: #0f172a;
+color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+  gap: 40px;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.box {
+  width: 325px;
+  height: 325px;
+  border: 3px solid red;
+  color: red;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.box:hover {
+  background-color: red;
+  color: #0f172a;
+  transition: 0.3s;
+}
+
+.heading1
+{
+color: red;
+text-align: center;
+font-size: 40px;
+background-color: #0b1220;
+}
+
+.form {
+font-size: 20px;
+color: rgb(190, 72, 51);
+font-weight: bold;
+display: inline-block;
+width: 180px; 
+}
+
+.form1 {
+font-size: 20px;
+color: rgb(0, 0, 0);
+padding: 5px;
+border-radius: 4px;
+border: 1px solid #ccc;
+margin-right: 40px;
+}
+
+.main-title {
+    font-size: 110px;
+    color: #C28608; 
+    font-family: "Sekuya", system-ui; 
+    margin-left: 20px;
+    letter-spacing: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+ text-shadow: 
+        -3px -3px 0 #fff,  
+         3px -3px 0 #fff,
+        -3px  3px 0 #fff,
+         3px  3px 0 #fff,
+         0px  3px 0 #fff,
+         0px -3px 0 #fff,
+        -3px  0px 0 #fff,
+         3px  0px 0 #fff,
+        15px 15px 15px rgba(0, 0, 0, 0.9);
+}
